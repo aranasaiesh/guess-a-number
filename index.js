@@ -42,6 +42,11 @@ function getRandomNumber(min, max) {
   return Math.floor(Math.random() * 101);
 }
 
+
+function checkValid(guess) {
+
+    
+}
 function checkGuess() {
 //console.log("Checkguess ran")
   const guess = parseInt(guessInput.value, 10);
